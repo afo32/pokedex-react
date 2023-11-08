@@ -1,0 +1,67 @@
+.pokemon {
+    height: 85vh;
+}
+
+.pokeballButton {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    background: none;
+    padding: 50px 50px 0 50px;
+}
+
+.pokeballImg {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.pokemonInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.pokemonInfoImg {
+    width: 100px;
+    margin: 20px 0;
+}
+
+.pokemonTitle {
+    margin: 50px 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.playBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+
+/* Estilos para separar las versiones por coma y espacio */
+.gameIndices span:not(:last-child)::after {
+    content: ', '; /* Agrega la coma */
+    margin-right: 5px; /* Añade un espacio */
+}
+
+.indexTitle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.indexList {
+    list-style: none;
+}
+
